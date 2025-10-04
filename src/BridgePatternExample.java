@@ -1,9 +1,5 @@
-// This class demonstrates the Bridge Design Pattern.
-// It uses two types of renderers (VectorRenderer and RasterRenderer)
-// to draw and resize two shapes: a Circle and a Square.
-// The renderer is separated from the shapes, allowing flexibility
-// to change the rendering method without modifying the shape classes.
-
+// This class demonstrates the Bridge Design Pattern using Circle and Square shapes
+// with different renderers (Vector and Raster).
 public class BridgePatternExample {
     public static void main(String[] args) {
         // Create two renderers: vector and raster
